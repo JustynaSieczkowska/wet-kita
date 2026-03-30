@@ -63,12 +63,11 @@ export default function ContactSection() {
           {/* PRAWA STRONA – MAPA */}
           <div className="w-full h-[550px] rounded-xl overflow-hidden shadow-xl">
             <iframe
-              src="https://www.google.com/maps?q=Ks.%20Jana%20D%C5%82ugosza%2027,%2091-083%20%C5%81%C3%B3d%C5%BA&output=embed"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=19.4223%2C51.7762%2C19.4278%2C51.7788&layer=mapnik&marker=51.77718%2C19.42498"
               width="100%"
               height="100%"
               loading="lazy"
-              className="border-0"
-              allowFullScreen
+              className="border-0 w-full h-full"
             />
           </div>
 
@@ -77,3 +76,5 @@ export default function ContactSection() {
     </section>
   );
 }
+
+
